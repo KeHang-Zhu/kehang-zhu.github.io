@@ -1,11 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "Physics-1a: Introduction to Physics (Summer 2023, Harvard)"
 collection: teaching
-type: "Workshop"
+type: "Undergraduate course"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "Harvard University, Physics Department"
+date: 2023-06-01
+location: "Cambridge, MA, USA"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
