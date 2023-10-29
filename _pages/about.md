@@ -45,14 +45,14 @@ When I'm not geeking out over research, you can find me capturing the world thro
 
 
 ## Selected Honors
-APS March Meeting Invited speaker, 2022
-Purcell Fellowship (Harvard), 2021
-Highest Honors, Honors Thesis Program at USTC, 2021
-Guo Moruo Scholarship (Highest honor for USTC undergrad students), 2020 
-Yan Jici  Scholarship (Highest honor for Physics department undergrad students), 2020 
-Lixin Tang Scholarship (top 0.5%), 2019
-National Scholarship (top 1%), 2019     
-National Scholarship (top 1%), 2018 
+- APS March Meeting Invited speaker, 2022
+- Purcell Fellowship (Harvard), 2021
+- Highest Honors, Honors Thesis Program at USTC, 2021
+- Guo Moruo Scholarship (Highest honor for USTC undergrad students), 2020 
+- Yan Jici  Scholarship (Highest honor for Physics department undergrad students), 2020 
+- Lixin Tang Scholarship (top 0.5%), 2019
+- National Scholarship (top 1%), 2019     
+- National Scholarship (top 1%), 2018 
 
 ---
 
