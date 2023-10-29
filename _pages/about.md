@@ -28,6 +28,8 @@ But wait, there's more! My research also dances around:
 - Merging Computational Economics with Social Science
 - Exploring Complexity and Adaptive Systems
 
+Don't hesitate to email me if you are interested in research opportunities or want to collaborate. I constantly mentor undergrad and grad students from Harvard, MIT and other schools.
+
 ## 🎓 My Journey So Far 🎓
 
 My academic voyage started with a B.A. in Physics from the [University of Science and Technology of China](https://en.ustc.edu.cn/), where I was elated to graduate with the highest honors,  both within the department and across the university!
@@ -40,6 +42,17 @@ I am also deeply grateful for the enriching collaboration with [Prof. Hanspeter 
 ## 🍃 A Pinch of Extra 🍃
 
 When I'm not geeking out over research, you can find me capturing the world through my camera lens 📸, embracing the beauty of nature 🌲, hitting the ski slopes 🎿, or trekking through scenic trails 🥾.
+
+
+## Selected Honors
+APS March Meeting Invited speaker, 2022
+Purcell Fellowship (Harvard), 2021
+Highest Honors, Honors Thesis Program at USTC, 2021
+Guo Moruo Scholarship (Highest honor for USTC undergrad students), 2020 
+Yan Jici  Scholarship (Highest honor for Physics department undergrad students), 2020 
+Lixin Tang Scholarship (top 0.5%), 2019
+National Scholarship (top 1%), 2019     
+National Scholarship (top 1%), 2018 
 
 ---
 
