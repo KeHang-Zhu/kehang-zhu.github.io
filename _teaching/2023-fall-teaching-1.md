@@ -8,13 +8,4 @@ date: 2023-09-01
 location: "Cambridge, MA, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Basic principles of statistical physics with applications including: the equilibrium properties of classical and quantum gases; phase diagrams, phase transitions and critical points, as illustrated by the gas-liquid transition and simple magnetic models; Bose-Einstein condensation.

@@ -8,13 +8,4 @@ date: 2021-02-01
 location: "Hefei, Anhui, China"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Topics include Monte Carlo method, quantum Monte Carlo, worm algorithm and the implementation in parallel computing.

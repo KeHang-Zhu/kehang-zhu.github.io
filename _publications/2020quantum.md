@@ -10,6 +10,6 @@ citation: 'Kehang Zhu, et.al. (2020). arXiv:2001.04047.'
 ---
 With Zhiping Yang, Zhijie Li, Qing-Dong Jiang, Zihua Chai, Changkui Duan, Ya Wang, Xing Rong and Jiangfeng Du.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://arxiv.org/pdf/2001.04047.pdf)
 
 Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
