@@ -9,3 +9,4 @@ location: "Cambridge, MA, USA"
 ---
 
 Basic principles of statistical physics with applications including: the equilibrium properties of classical and quantum gases; phase diagrams, phase transitions and critical points, as illustrated by the gas-liquid transition and simple magnetic models; Bose-Einstein condensation.
+

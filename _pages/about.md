@@ -45,6 +45,9 @@ When I'm not geeking out over research, you can find me capturing the world thro
 
 
 ## Selected Honors
+- APS March Meeting Invited speaker, 2024
+- K9 fellowship, 2023
+- ICLC Invited speaker, 2023
 - APS March Meeting Invited speaker, 2022
 - Purcell Fellowship (Harvard), 2021
 - Highest Honors, Honors Thesis Program at USTC, 2021
