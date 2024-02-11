@@ -21,8 +21,8 @@ I've been incredibly lucky to have some amazing guides on this journey, jointly 
 In the short term, I am dedicated to constructing a sandbox environment powered by large language models. This innovative platform will serve as a testing ground for a variety of socio-economic experiments,
 
 Looking ahead, my long-term scope concerning two questions:
-- How can AI enhance our understanding of ourselves and our intrinsic nature?
-- How can AI be leveraged to foster a more enlightened and equitable society?
+1. How can AI enhance our understanding of ourselves and our intrinsic nature?
+2. How can AI be leveraged to foster a more enlightened and equitable society?
 
 Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/)
 
