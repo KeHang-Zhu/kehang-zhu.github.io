@@ -13,20 +13,18 @@ redirect_from:
 
 Currently, I'm diving deep into my third year of PhD studies at [Harvard University's esteemed Physics Department](https://www.physics.harvard.edu/). Imagine blending the magic of Large Language Models with the intricacies of Economics and Social Science – that's what I'm up to! 🎩✨
 
-I've been incredibly lucky to have some amazing guides on this journey. [Prof. John Horton](https://www.physics.harvard.edu/) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/) have been lighting up my path.
+I've been incredibly lucky to have some amazing guides on this journey, jointly advised by [Prof. John Horton](https://www.physics.harvard.edu/) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/).
 
-Lately, I've been delving into the fascinating world of Complexity and Adaptive Systems. There's nothing like using modeling and coding to unravel the mysteries behind econ-socio phenomena. It's like solving a puzzle, and I'm here for it! 🧩
 
 ## 🚀 My Work and Research 🚀
 
-My research sails across two exciting domains: 
-1. Crafting a sandbox where we can 'physicalize' social science experiments! 🏖️
-2. Unveiling the immense capabilities of generative AI, with a special shoutout to our big friend, Large Language Models. 🤖
+In the short term, I am dedicated to constructing a sandbox environment powered by large language models. This innovative platform will serve as a testing ground for a variety of socio-economic experiments,
 
-But wait, there's more! My research also dances around:
-- Large Language Model development and applications
-- Merging Computational Economics with Social Science
-- Exploring Complexity and Adaptive Systems
+Looking ahead, my long-term scope concerning two questions:
+- How can AI enhance our understanding of ourselves and our intrinsic nature?
+- How can AI be leveraged to foster a more enlightened and equitable society?
+
+Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/)
 
 Don't hesitate to email me if you are interested in research opportunities or want to collaborate. I constantly mentor undergrad and grad students from Harvard, MIT and other schools.
 
@@ -36,7 +34,7 @@ My academic voyage started with a B.A. in Physics from the [University of Scienc
 
 Before joining Harvard, I was very lucky, undeservedly so, to be a visiting scholar at the Massachusetts Institute of Technology. During this period, I was profoundly honored to work under the guidance of Nobel Laureate [Prof. Frank Wilczek](https://physics.mit.edu/faculty/frank-wilczek/), whose intellectual prowess has been a beacon of inspiration for me. 
 
-I am also deeply grateful for the enriching collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard [Viusal Computing Group](https://vcg.seas.harvard.edu/), a luminary in the fields of visualization and human-computer interaction.
+I am also deeply grateful for the enriching collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard [Viusal Computing Group](https://vcg.seas.harvard.edu/), in the fields of visualization and human-computer interaction (HCI).
 
 
 ## 🍃 A Pinch of Extra 🍃
@@ -45,6 +43,7 @@ When I'm not geeking out over research, you can find me capturing the world thro
 
 
 ## Selected Honors
+-  Introduction to Technical AI Safety Fellowship, 2024
 - APS March Meeting Invited speaker, 2024
 - K9 fellowship, 2023
 - ICLC Invited speaker, 2023
