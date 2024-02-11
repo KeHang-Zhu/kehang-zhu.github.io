@@ -43,7 +43,7 @@ When I'm not geeking out over research, you can find me capturing the world thro
 
 
 ## Selected Honors
--  Introduction to Technical AI Safety Fellowship, 2024
+- Introduction to Technical AI Safety Fellowship, 2024
 - APS March Meeting Invited speaker, 2024
 - K9 fellowship, 2023
 - ICLC Invited speaker, 2023
