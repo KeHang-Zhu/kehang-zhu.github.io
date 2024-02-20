@@ -15,6 +15,9 @@ Currently, I'm diving deep into my third year of PhD studies at [Harvard Univers
 
 I've been incredibly lucky to have some amazing guides on this journey, jointly advised by [Prof. John Horton](https://www.physics.harvard.edu/) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/).
 
+## 🚀 New working paper🚀
+Check out our new working paper on [Automated Social Science: A Structural Causal Model-Based Approach](/files/rs.pdf)
+
 
 ## 🚀 My Work and Research 🚀
 
