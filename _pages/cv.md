@@ -12,8 +12,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Multi-agent simulation and AI safety, Harvard University, 2026 (expected)
+* Ph.D in Physics, Harvard University, 2026 (expected)
 * M.S. in Computer Science, Harvard University, 2024
+* M.A. in Physics, Harvard University, 2023
 * B.S. in Physics, University of Science and Technology of China, 2021
 
 
