@@ -13,7 +13,7 @@ Hello there! I'm Kehang Zhu, a third year PhD student in Harvard Physics Departm
 
 
 ## My Research
-I am interested in modelling human behaviors.
+I am generally interested in modelling human behaviors.
 
 In the short term,, I am exploring these two directions:
 1. Do Language Models(LMs) behave like humans? How? When?
@@ -35,7 +35,7 @@ Don't hesitate to email me if you are interested in research opportunities or wa
 
 Before joining Harvard, I was very lucky, undeservedly so, to be host by Nobel Laureate in Physics [Prof. Frank Wilczek](https://physics.mit.edu/faculty/frank-wilczek/) in MIT. I was working on using Quantum field theory to model complicated dynamics inside a class of material (quantum spin ice) [News](https://meetings.aps.org/Meeting/MAR22/Session/K51.5).
 
-My modelling interests turned to human and society after an enriching collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard [Viusal Computing Group](https://vcg.seas.harvard.edu/). I ran large-scale huamn-subject studies to investigate the mental models of people making sense of visualizations [CHI 24'](https://programs.sigchi.org/chi/2024/program/content/147374).
+My modelling interests turned to human and society after an enriching collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard [Viusal Computing Group](https://vcg.seas.harvard.edu/). I ran large-scale human-subject studies to investigate the mental models of people making sense of visualizations [CHI 24'](https://programs.sigchi.org/chi/2024/program/content/147374).
 
 
 ## A Pinch of Extra
