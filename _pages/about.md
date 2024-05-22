@@ -23,13 +23,18 @@ Looking ahead, my long-term scope concerning two questions:
 1. How can AI enhance our understanding of ourselves and our intrinsic nature?
 2. How can AI be leveraged to foster a more enlightened and equitable society?
 
-See my current working paper: 
-- [Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794.)
+### Working paper: 
+
+<u>**[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794.)**</u>
+
 (With John Horton and Benjamin Manning)
+
+Selected Media: <u>[Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html)</u>, <u>[AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments)</u>, <u>[The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social)</u>, [<u>AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)</u>
+
 
 <!-- Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/) -->
 
-Don't hesitate to email me if you are interested in research opportunities or want to collaborate. I constantly mentor undergrad and grad students from Harvard, MIT and other schools.
+<!-- Don't hesitate to email me if you are interested in research opportunities or want to collaborate. I constantly mentor undergrad and grad students from Harvard, MIT and other schools. -->
 
 ## My Journey So Far
 
@@ -45,17 +50,10 @@ When I'm not geeking out over research, you can find me capturing the world thro
 
 ## Selected Honors
 - Introduction to Technical AI Safety Fellowship, 2024
-- APS March Meeting Invited speaker, 2024
-- K9 fellowship, 2023
-- ICLC Invited speaker, 2023
-- APS March Meeting Invited speaker, 2022
 - Purcell Fellowship (Harvard), 2021
-- Highest Honors, Honors Thesis Program at USTC, 2021
 - Guo Moruo Scholarship (Highest honor for USTC undergrad students), 2020 
 - Yan Jici  Scholarship (Highest honor for Physics department undergrad students), 2020 
-- Lixin Tang Scholarship (top 0.5%), 2019
-- National Scholarship (top 1%), 2019     
-- National Scholarship (top 1%), 2018 
+
 
 ---
 
