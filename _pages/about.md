@@ -25,11 +25,11 @@ Looking ahead, my long-term scope concerning two questions:
 
 ### Working paper: 
 
-<u>**[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794.)**</u>
+**[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794.)**
 
 (With John Horton and Benjamin Manning)
 
-Selected Media: <u>[Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html)</u>, <u>[AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments)</u>, <u>[The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social)</u>, [<u>AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)</u>
+Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
 
 
 <!-- Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/) -->
