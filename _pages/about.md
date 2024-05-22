@@ -16,12 +16,12 @@ Hello there! I'm Kehang Zhu, a third year PhD student in Harvard Physics Departm
 I am generally interested in modelling human behaviors.
 
 In the short term,, I am exploring these two directions:
-1. Do Language Models(LMs) behave like humans? How? When?
-2. Do humans behave like LMs? How can we use LMs to inform new machenism design.
+1. Do Language Models (LMs) behave like Humans?
+2. Are predictions made on LMs valid on Humans? 
 
 Looking ahead, my long-term scope concerning two questions:
-1. How can AI enhance our understanding of ourselves and our intrinsic nature?
-2. How can AI be leveraged to foster a more enlightened and equitable society?
+1. How to better model Human Behaviors with AI?
+2. How to increase the Welfare of Human Being with AI modeling?
 
 ### Working paper: 
 
