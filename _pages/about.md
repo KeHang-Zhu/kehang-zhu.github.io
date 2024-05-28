@@ -29,7 +29,7 @@ Looking ahead, my long-term scope concerning two questions:
 
 (With John Horton and Benjamin Manning)
 
-Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
+Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social),[One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/),
 
 
 <!-- Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/) -->
