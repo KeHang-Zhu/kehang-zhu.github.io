@@ -25,7 +25,7 @@ Looking ahead, my long-term scope concerning two questions:
 
 ### Working paper: 
 
-**[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794.)**
+**[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794)**
 
 (With John Horton and Benjamin Manning)
 
