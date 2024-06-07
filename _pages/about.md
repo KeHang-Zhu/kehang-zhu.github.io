@@ -9,7 +9,7 @@ redirect_from:
 
 ---
 
-Hello there! I'm Kehang Zhu, a third year PhD student in Harvard Physics Department. I've been jointly advised by [Prof. John Horton](https://www.physics.harvard.edu/) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/).
+Hello there! I'm Kehang Zhu, Ph.D. candidate in Harvard Physics Department. I've been jointly advised by [Prof. John Horton](https://www.physics.harvard.edu/) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/).
 
 
 ## My Research
