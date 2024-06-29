@@ -13,7 +13,7 @@ Hello there! I'm Kehang Zhu, Ph.D. candidate in Harvard Physics Department. I've
 
 
 ## My Research
-I am generally interested in modelling human behaviors.
+I am generally interested in modelling human behaviors and mechanism design.
 
 In the short term,, I am exploring these two directions:
 1. Do Language Models (LMs) behave like Humans?
@@ -27,7 +27,7 @@ Looking ahead, my long-term scope concerning two questions:
 
 **[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794)**
 
-(With John Horton and Benjamin Manning)
+(With John Horton and Benjamin Manning) [Slide](https://docs.google.com/presentation/d/15c4sh5NC-IJePoteKCgryqFtzFzAJtWPbs1BQrxHF8A/edit?usp=sharing)
 
 Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
 
