@@ -9,15 +9,20 @@ redirect_from:
 
 ---
 
-# About Me
-
 Hello there! I'm Kehang.
 
 I'm a third year Ph.D. candidate at Harvard University. I've been jointly advised by [Prof. John Horton](https://www.physics.harvard.edu/) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/).
 
 
 ## My Research
-I am generally interested in modelling human behaviors and mechanism design.
+The central problem I aim to address is how to make **mechanism design** more applicable in real-world scenarios. Many theoretically optimal mechanisms are seldom applied in practice due to their complexity.
+
+My previous work focuses on using Large Language Models (LLMs) as simulated agents — **Homo Silicus** — in traditional economic lab experiments. By comparing benchmarks from both economic theory and experiment, we found that LLM agents exhibit many cognitive constraints similar to those of real humans, i.e., LLMs behave in ways akin to humans. The Homo Silicus approach provides new empirical insights for mechanism designers.
+
+My recent work concentrates on simplifying mechanisms through the involvement of LLM proxies. People can express their intentions in natural language, and an LLM agent will act as their proxy within the mechanism.
+
+
+<!-- I am generally interested in modelling human behaviors and mechanism design.
 
 In the short term,, I am exploring these two directions:
 1. Do Language Models (LMs) behave like Humans?
@@ -25,7 +30,7 @@ In the short term,, I am exploring these two directions:
 
 Looking ahead, my long-term scope concerning two questions:
 1. How to better model Human Behaviors with AI?
-2. How to increase the Welfare of Human Being with AI modeling?
+2. How to increase the Welfare of Human Being with AI modeling? -->
 
 ### Working paper: 
 
@@ -47,9 +52,9 @@ Looking ahead, my long-term scope concerning two questions:
 
 ## My Journey So Far
 
-Before joining Harvard, I was very lucky, undeservedly so, to be host by Nobel Laureate in Physics [Prof. Frank Wilczek](https://physics.mit.edu/faculty/frank-wilczek/) in MIT. I was working on using Quantum field theory to model complicated dynamics inside a class of material (quantum spin ice) [News](https://meetings.aps.org/Meeting/MAR22/Session/K51.5).
+Before joining Harvard, I was very lucky, undeservedly so, to be host by Nobel Laureate in Physics [Prof. Frank Wilczek](https://physics.mit.edu/faculty/frank-wilczek/) in MIT. I was working on using Quantum field theory to model correlated dynamics inside a class of material (quantum spin ice) [News](https://meetings.aps.org/Meeting/MAR22/Session/K51.5).
 
-My modelling interests turned to human and society after an enriching collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard [Viusal Computing Group](https://vcg.seas.harvard.edu/). I ran large-scale human-subject studies to investigate the mental models of people making sense of visualizations [CHI 24'](https://programs.sigchi.org/chi/2024/program/content/147374).
+My research interests turned to human and society after an enriching collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard [Viusal Computing Group](https://vcg.seas.harvard.edu/). I ran large-scale human-subject studies to investigate the mental models of people making sense of visualizations [CHI 24'](https://programs.sigchi.org/chi/2024/program/content/147374).
 
 
 ## A Pinch of Extra
