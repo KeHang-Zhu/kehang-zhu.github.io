@@ -11,7 +11,7 @@ redirect_from:
 
 Hello there! I'm Kehang.
 
-I'm a third year Ph.D. candidate at Harvard University. I've been jointly advised by [Prof. John Horton](https://www.physics.harvard.edu/) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/).
+I'm a third year Ph.D. candidate at Harvard University. I've been jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/).
 
 
 ## My Research
@@ -38,12 +38,16 @@ Looking ahead, my long-term scope concerning two questions:
 
 - (With John Horton and Benjamin Manning) [Slide](https://docs.google.com/presentation/d/15c4sh5NC-IJePoteKCgryqFtzFzAJtWPbs1BQrxHF8A/edit?usp=sharing)
 
-- Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
+- Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [LLM in Science](https://llminscience.com/), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
 
-**Homo Silicus in the Lab: Conducting Auction Experiments With Language Models**
+**Evidence from the Synthetic Laboratory: Language Models as Auction Participants**
 
 - (With Anand Shah, Yanchen Jiang, John Horton and David Parkes) 
 - Accepted by Conference of Economics and Computation 2024 as [Poster](https://drive.google.com/file/d/1pjOY_0SyVpgsZ75PCVZQAnXrZn7S7Ct6/view?usp=sharing)
+
+
+** Reading Between the Pixels: Investigating the Barriers to Visualization Literacy **
+- [pdf](/files/reading-between-pixels.pdf)
 
 
 <!-- Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/) -->
