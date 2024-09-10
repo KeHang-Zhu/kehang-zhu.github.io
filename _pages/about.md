@@ -46,9 +46,6 @@ Looking ahead, my long-term scope concerning two questions:
 - Accepted by Conference of Economics and Computation 2024 as [Poster](https://drive.google.com/file/d/1pjOY_0SyVpgsZ75PCVZQAnXrZn7S7Ct6/view?usp=sharing)
 
 
-** Reading Between the Pixels: Investigating the Barriers to Visualization Literacy **
-- [pdf](/files/reading-between-pixels.pdf)
-
 
 <!-- Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/) -->
 
@@ -58,7 +55,9 @@ Looking ahead, my long-term scope concerning two questions:
 
 Before joining Harvard, I was very lucky, undeservedly so, to be host by Nobel Laureate in Physics [Prof. Frank Wilczek](https://physics.mit.edu/faculty/frank-wilczek/) in MIT. I was working on using Quantum field theory to model correlated dynamics inside a class of material (quantum spin ice) [News](https://meetings.aps.org/Meeting/MAR22/Session/K51.5).
 
-My research interests turned to human and society after an enriching collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard [Viusal Computing Group](https://vcg.seas.harvard.edu/). I ran large-scale human-subject studies to investigate the mental models of people making sense of visualizations [CHI 24'](https://programs.sigchi.org/chi/2024/program/content/147374).
+My research interests turned to human and society after an enriching collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard [Viusal Computing Group](https://vcg.seas.harvard.edu/). I ran large-scale human-subject studies to investigate the mental models of people making sense of visualizations [CHI 24'](https://programs.sigchi.org/chi/2024/program/content/147374). 
+**Reading Between the Pixels: Investigating the Barriers to Visualization Literacy**
+- [PDF](/files/reading-between-pixels.pdf)
 
 
 ## A Pinch of Extra
