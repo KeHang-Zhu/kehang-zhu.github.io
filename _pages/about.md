@@ -35,19 +35,19 @@ Looking ahead, my long-term scope concerning two questions:
 
 **[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794)**
 
-- (With John Horton and Benjamin Manning) [Slide](https://docs.google.com/presentation/d/15c4sh5NC-IJePoteKCgryqFtzFzAJtWPbs1BQrxHF8A/edit?usp=sharing)
+- With John Horton and Benjamin Manning. [Slide](https://docs.google.com/presentation/d/15c4sh5NC-IJePoteKCgryqFtzFzAJtWPbs1BQrxHF8A/edit?usp=sharing)
 
 - Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [LLM in Science](https://llminscience.com/), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
 
 **[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://openreview.net/pdf?id=XZ71GHf8aB)**
 
-- (With Anand Shah, Jeffery Wang, Arif Kerem Dayi, Yanchen Jiang, John Horton and David Parkes) 
+- With Anand Shah, Jeffery Wang, Arif Kerem Dayi, Yanchen Jiang, John Horton and David Parkes
 - Accepted in NeurIPS 2024 Machine Behavior Workshop and Conference of Economics and Computation 2024 as Poster
 
 **[LLM-Powered Preference Elicitation in Combinatorial Assignment](https://arxiv.org/abs/2502.10308)**
 
 - Submitted to ICML 2025
-- (With Ermis Soumalias, Yanchen Jiang, Michael Curry, Sven Seuken, David C. Parkes)
+- With Ermis Soumalias, Yanchen Jiang, Michael Curry, Sven Seuken, David C. Parkes
 
 
 Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/)
