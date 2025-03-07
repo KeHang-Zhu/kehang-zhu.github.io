@@ -39,7 +39,7 @@ Looking ahead, my long-term scope concerning two questions:
 
 - Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [LLM in Science](https://llminscience.com/), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
 
-**[Learning from the Synthetic Laboratory: Language Models as Auction Participants](https://openreview.net/pdf?id=XZ71GHf8aB)**
+**[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://openreview.net/pdf?id=XZ71GHf8aB)**
 
 - (With Anand Shah, Jeffery Wang, Arif Kerem Dayi, Yanchen Jiang, John Horton and David Parkes) 
 - Accepted in NeurIPS 2024 Machine Behavior Workshop and Conference of Economics and Computation 2024 as Poster
