@@ -11,7 +11,8 @@ redirect_from:
 
 Hello there! I'm Kehang.
 
-I'm a fourth year Ph.D. candidate at Harvard University. I've been jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/).
+I'm a fourth year Ph.D. candidate at Harvard University. I've been jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/). 
+I am currently supported by Google DeepMind Seed Fund.
 
 
 ## My Research
