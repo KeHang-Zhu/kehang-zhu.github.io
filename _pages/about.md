@@ -15,7 +15,7 @@ I'm a fourth year Ph.D. candidate at Harvard University. I've been jointly advis
 I am currently supported by [Google DeepMind](https://deepmind.google/) Seed Fund.
 
 
-I study **AI agents** as proxies for human decision-making, as well as how individuals understand, perceive, and collaborate with these agents in economic contexts. 
+I study **AI agents** as proxies for human decision-making, as well as how individuals **collaborate** with these agents in economic contexts. 
 My recent work explores the capabilities, benefits, and trade-offs of deploying large language models (LLMs) as autonomous agents by developing innovative AI tools and conducting large-scale social economics experiments.
 
 
@@ -42,7 +42,11 @@ Looking ahead, my long-term scope concerning two questions:
 
 <sub>Reject and Resubmit at the Quarterly Journal of Economics.</sub>
 
-<sub> Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [LLM in Science](https://llminscience.com/), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/) </sub>
+<sub> Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research),  </sub>
+
+<!-- [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments),  -->
+<!-- [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/) -->
+<!-- [LLM in Science](https://llminscience.com/),  -->
 
 **[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://openreview.net/pdf?id=XZ71GHf8aB)**
 
