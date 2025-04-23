@@ -15,7 +15,6 @@ I'm a fourth year Ph.D. candidate at Harvard University. I've been jointly advis
 I am currently supported by [Google DeepMind](https://deepmind.google/) Seed Fund.
 
 
-## My Research
 I study **AI agents** as proxies for human decision-making, as well as how individuals understand, perceive, and collaborate with these agents in economic contexts. 
 My recent work explores the capabilities, benefits, and trade-offs of deploying large language models (LLMs) as autonomous agents by developing innovative AI tools and conducting large-scale social economics experiments.
 
@@ -35,23 +34,25 @@ Looking ahead, my long-term scope concerning two questions:
 1. How to better model Human Behaviors with AI?
 2. How to increase the Welfare of Human Being with AI modeling? -->
 
-## Selected works: 
+## My Research
 
 **[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794)**
 
-With John Horton and Benjamin Manning. Reject and Resubmit at the Quarterly Journal of Economics. [Slide](https://docs.google.com/presentation/d/15c4sh5NC-IJePoteKCgryqFtzFzAJtWPbs1BQrxHF8A/edit?usp=sharing)
+<sub>With John Horton and Benjamin Manning.</sub>
 
-Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [LLM in Science](https://llminscience.com/), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
+<sub>Reject and Resubmit at the Quarterly Journal of Economics.</sub>
+
+<sub> Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [LLM in Science](https://llminscience.com/), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/) </sub>
 
 **[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://openreview.net/pdf?id=XZ71GHf8aB)**
 
-- With Anand Shah, Jeffery Wang, Arif K. Dayi, Yanchen Jiang, John Horton and David Parkes
-- NeurIPS 2024 (Workshop), EC 2024 (Poster)
+<sub>With Anand Shah, Jeffery Wang, Arif K. Dayi, Yanchen Jiang, John Horton and David Parkes</sub>
+<sub>NeurIPS 2024 (Workshop), EC 2024 (Poster)</sub>
 
 **[LLM-Powered Preference Elicitation in Combinatorial Assignment](https://arxiv.org/abs/2502.10308)**
 
-- With Ermis Soumalias, Yanchen Jiang, Michael Curry, Sven Seuken, David C. Parkes
-- Submitted to ICML 2025
+<sub>With Ermis Soumalias, Yanchen Jiang, Michael Curry, Sven Seuken, David C. Parkes</sub>
+<sub>Submitted to ICML 2025</sub>
 
 
 Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/)
