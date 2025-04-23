@@ -12,13 +12,17 @@ redirect_from:
 Hello there! I'm Kehang.
 
 I'm a fourth year Ph.D. candidate at Harvard University. I've been jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/). 
-I am currently supported by Google DeepMind Seed Fund.
+I am currently supported by [Google DeepMind](https://deepmind.google/) Seed Fund.
 
 
 ## My Research
-The central problem I aim to address is how to make **mechanism design** more applicable in real-world scenarios. Many theoretically optimal mechanisms are seldom applied in practice due to their complexity.
+I study **AI agents** as proxies for human decision-making, as well as how individuals understand, perceive, and collaborate with these agents in economic contexts. 
+My recent work explores the capabilities, benefits, and trade-offs of deploying large language models (LLMs) as autonomous agents by developing innovative AI tools and conducting large-scale social economics experiments.
 
-My work focuses on using Large Language Models (LLMs) as **Proxies** for Human behaviors in traditional lab experiments. People can express their intentions in natural language, and an LLM agent will act as their proxy within the mechanism.
+
+<!-- The central problem I aim to address is how to make **mechanism design** more applicable in real-world scenarios. Many theoretically optimal mechanisms are seldom applied in practice due to their complexity.
+
+My work focuses on using Large Language Models (LLMs) as **Proxies** for Human behaviors in traditional lab experiments. People can express their intentions in natural language, and an LLM agent will act as their proxy within the mechanism. -->
 
 
 <!-- I am generally interested in modelling human behaviors and mechanism design.
@@ -35,19 +39,19 @@ Looking ahead, my long-term scope concerning two questions:
 
 **[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794)**
 
-- With John Horton and Benjamin Manning. [Slide](https://docs.google.com/presentation/d/15c4sh5NC-IJePoteKCgryqFtzFzAJtWPbs1BQrxHF8A/edit?usp=sharing)
+With John Horton and Benjamin Manning. Reject and Resubmit at the Quarterly Journal of Economics. [Slide](https://docs.google.com/presentation/d/15c4sh5NC-IJePoteKCgryqFtzFzAJtWPbs1BQrxHF8A/edit?usp=sharing)
 
-- Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [LLM in Science](https://llminscience.com/), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
+Selected Media: [Marginal revolution](https://marginalrevolution.com/marginalrevolution/2024/03/its-happening-economic-science-edition.html), [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments), [LLM in Science](https://llminscience.com/), [The Future of Being Human](https://futureofbeinghuman.com/p/can-ai-be-used-to-automate-social), [One Useful Thing](https://www.oneusefulthing.org/p/four-singularities-for-research), [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/)
 
 **[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://openreview.net/pdf?id=XZ71GHf8aB)**
 
-- With Anand Shah, Jeffery Wang, Arif Kerem Dayi, Yanchen Jiang, John Horton and David Parkes
-- Accepted in NeurIPS 2024 Machine Behavior Workshop and Conference of Economics and Computation 2024 as Poster
+- With Anand Shah, Jeffery Wang, Arif K. Dayi, Yanchen Jiang, John Horton and David Parkes
+- NeurIPS 2024 (Workshop), EC 2024 (Poster)
 
 **[LLM-Powered Preference Elicitation in Combinatorial Assignment](https://arxiv.org/abs/2502.10308)**
 
-- Submitted to ICML 2025
 - With Ermis Soumalias, Yanchen Jiang, Michael Curry, Sven Seuken, David C. Parkes
+- Submitted to ICML 2025
 
 
 Recently, I was selected as the Introduction to Technical AI Safety Fellow with the [AI Safety Student Team](https://haist.ai/)
