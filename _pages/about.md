@@ -52,6 +52,8 @@ Looking ahead, my long-term scope concerning two questions:
 
 <sub>With Crystal Qian*, John Horton, Benjamin S Manning, Vivian Tsai, James Wexler, Nithum Thain</sub>
 
+<sub>Dataset available in Google DeepMind Research Hub</sub>
+
 **[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://arxiv.org/pdf/2507.09083?)**
 
 <sub>With Anand Shah*, Jeffery Wang, Arif K. Dayi, Yanchen Jiang, John Horton and David Parkes</sub>
