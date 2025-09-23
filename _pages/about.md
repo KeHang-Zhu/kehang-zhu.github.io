@@ -11,8 +11,8 @@ redirect_from:
 
 Hello there! I'm Kehang.
 
-I'm a fourth year Ph.D. candidate at Harvard University. I've been jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/). 
-I am currently supported by [Google DeepMind](https://deepmind.google/) Seed Fund.
+I'm a final year Ph.D. candidate at Harvard University. I've been jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/). 
+I had the pleasure to intern in [Google DeepMind](https://deepmind.google/) and worked with Crystal Qian, Nithum Thain and James Wexler.
 
 
 I study **AI agents** as proxies for human decision-making, as well as how individuals **collaborate** with these agents in economic contexts. 
@@ -38,7 +38,7 @@ Looking ahead, my long-term scope concerning two questions:
 
 **[Automated Social Science: Language Models as Scientist and Subjects](https://arxiv.org/abs/2404.11794)**
 
-<sub>With John Horton and Benjamin Manning.</sub>
+<sub>With Benjamin Manning* and John Horton .</sub>
 
 <sub>Reject and Resubmit at the Quarterly Journal of Economics.</sub>
 
@@ -48,17 +48,15 @@ Looking ahead, my long-term scope concerning two questions:
 <!-- [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/) -->
 <!-- [LLM in Science](https://llminscience.com/),  -->
 
-**[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://openreview.net/pdf?id=XZ71GHf8aB)**
+**[Strategic Tradeoffs Between Human and AI Agents in Bargaining Games](https://arxiv.org/pdf/2509.09071)**
 
-<sub>With Anand Shah, Jeffery Wang, Arif K. Dayi, Yanchen Jiang, John Horton and David Parkes</sub>
+<sub>With Crystal Qian*, John Horton, Benjamin S Manning, Vivian Tsai, James Wexler, Nithum Thain</sub>
+
+**[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://arxiv.org/pdf/2507.09083?)**
+
+<sub>With Anand Shah*, Jeffery Wang, Arif K. Dayi, Yanchen Jiang, John Horton and David Parkes</sub>
 
 <sub>NeurIPS 2024 (Workshop), EC 2024 (Poster)</sub>
-
-**[LLM-Powered Preference Elicitation in Combinatorial Assignment](https://arxiv.org/abs/2502.10308)**
-
-<sub>With Ermis Soumalias, Yanchen Jiang, Michael Curry, Sven Seuken, David C. Parkes</sub>
-
-<sub>Submitted to ICML 2025</sub>
 
 
 <!-- Don't hesitate to email me if you are interested in research opportunities or want to collaborate. I constantly mentor undergrad and grad students from Harvard, MIT and other schools. -->
@@ -78,8 +76,9 @@ Recently, I was selected as the Introduction to Technical AI Safety Fellow with 
 When I'm not geeking out over research, you can find me capturing the world through my camera lens 📸, embracing the beauty of nature 🌲, hitting the ski slopes 🎿, or trekking through scenic trails 🥾.
 
 
-## Selected Honors
-- Introduction to Technical AI Safety Fellowship, 2024
+## Selected Honors 
+- Google DeepMind Seed Fund, 2024
+- Introduction to Technical AI Safety Fellowship, 2023
 - Purcell Fellowship (Harvard), 2021
 - Guo Moruo Scholarship (Highest honor for USTC undergrad students), 2020 
 - Yan Jici  Scholarship (Highest honor for Physics department undergrad students), 2020 
