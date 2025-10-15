@@ -47,6 +47,10 @@ Looking ahead, my long-term scope concerning two questions:
 <!-- [AI Breakfast](https://aibreakfast.beehiiv.com/p/llmbased-system-designs-runs-social-experiments),  -->
 <!-- [AI in Education](https://www.linkedin.com/pulse/ai-education-new-research-6th-may-ray-fleming-h7xge/) -->
 <!-- [LLM in Science](https://llminscience.com/),  -->
+**[Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches,
+and Delegates in Multi-Party Negotiation]**
+
+<sub>Intern work in Google DeepMind, with Nithum Thain, Vivian Tsai, James Wexler, Crystal Qian</sub>
 
 **[Strategic Tradeoffs Between Human and AI Agents in Bargaining Games](https://arxiv.org/pdf/2509.09071)**
 
