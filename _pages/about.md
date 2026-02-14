@@ -63,11 +63,15 @@ Looking ahead, my long-term scope concerning two questions:
 
 <sub>Intern work in Google DeepMind, with Nithum Thain, Vivian Tsai, James Wexler, Crystal Qian</sub>
 
-**[Learning from Synthetic Laboratory: Language Models as Auction Participants](https://arxiv.org/pdf/2507.09083?)**
+**[Benchmarking LLM Bidding Against Human Experimental Data](https://drive.google.com/file/d/1mvl8tgwak2fnBWhTh-slHqTSU_lyviDa/view?usp=sharing)**
 
 <sub>With Anand Shah*, Jeffery Wang, Arif K. Dayi, Yanchen Jiang, John Horton and David Parkes</sub>
 
 <sub>NeurIPS 2024 (Workshop), EC 2024 (Poster)</sub>
+
+**[Engineering Simplicity for LLM Agents](https://drive.google.com/file/d/1V5Gkuu8RiZS17NSwKPe3SmUlMmXQDh4m/view?usp=sharing)**
+<sub>With Anand Shah*, David Parkes</sub>
+
 
 
 <!-- Don't hesitate to email me if you are interested in research opportunities or want to collaborate. I constantly mentor undergrad and grad students from Harvard, MIT and other schools. -->
