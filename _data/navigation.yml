@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Works"
+    url: /works/
     
   # Removed Talks and Teaching from navigation
   # - title: "Talks"

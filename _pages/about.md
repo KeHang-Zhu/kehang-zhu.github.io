@@ -81,8 +81,6 @@ With Anand Shah and David Parkes.
 
 <a href="https://drive.google.com/file/d/1V5Gkuu8RiZS17NSwKPe3SmUlMmXQDh4m/view?usp=sharing" class="paper-btn">PDF</a>
 
-
-
 <!-- Don't hesitate to email me if you are interested in research opportunities or want to collaborate. I constantly mentor undergrad and grad students from Harvard, MIT and other schools. -->
 
 ## My Journey So Far
