@@ -9,6 +9,8 @@
   color: #2962ff !important;
   font-size: 0.82em;
   font-weight: 500;
+  line-height: 1.4;
+  vertical-align: middle;
   text-decoration: none !important;
   border: 1.5px solid #2962ff;
   border-radius: 4px;
@@ -102,6 +104,8 @@
   color: #b8860b;
   font-size: 0.82em;
   font-weight: 600;
+  line-height: 1.4;
+  vertical-align: middle;
   text-decoration: none !important;
   border: 1.5px solid #c9a02a;
   border-radius: 4px;
@@ -153,7 +157,6 @@
 /* let <button> match the <a class="paper-btn"> look */
 button.paper-btn {
   font-family: inherit;
-  line-height: normal;
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
