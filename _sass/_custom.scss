@@ -164,6 +164,40 @@
 }
 
 /* ==========================================================================
+   HOME (About) — avatar rail + intro aligned in one grid; section labels
+   ("Working Papers", ...) line up underneath the avatar (same 220px column).
+   ========================================================================== */
+
+.home-avatar {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 1px solid #e3e3e3;
+}
+.home-name { font-weight: 700; font-size: 1.15rem; line-height: 1.25; margin: 0.7em 0 0.05em; }
+.home-bio  { color: #6a6a6a; font-size: 0.95rem; margin: 0; }
+.home-loc  { color: #6b6b6b; font-size: 0.85rem; margin: 0.3em 0 0.55em; }
+.home-loc i { margin-right: 0.15em; }
+.home-contacts { display: flex; flex-wrap: wrap; gap: 0.5em 0.75em; }
+.home-contacts a { color: #454545; font-size: 1.3rem; line-height: 1; text-decoration: none; }
+.home-contacts a:hover { color: #2962ff; }
+.home-main { max-width: 52em; }
+.home-rail { margin-bottom: 1.2em; }
+
+@include breakpoint($large) {
+  .home-top {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    column-gap: 2.5em;
+    align-items: start;
+    margin-bottom: 1em;
+  }
+  .home-top > * { min-width: 0; }
+  .home-rail { margin-bottom: 0; }
+}
+
+/* ==========================================================================
    FULL-WIDTH PAGES (profile sidebar hidden) + non-sliding sidebar
    ========================================================================== */
 

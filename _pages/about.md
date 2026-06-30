@@ -2,7 +2,7 @@
 permalink: /
 title: "About"
 # excerpt: "About me"
-author_profile: true
+author_profile: false
 full_width: true
 redirect_from: 
   - /about/
@@ -10,11 +10,28 @@ redirect_from:
 
 ---
 
-<div class="page-intro" markdown="1">
+<div class="home-top" markdown="1">
+
+<div class="home-rail">
+  <img class="home-avatar" src="{{ site.baseurl }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+  <div class="home-name">{{ site.author.name }}</div>
+  <div class="home-bio">{{ site.author.bio }}</div>
+  <div class="home-loc"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ site.author.location }}</div>
+  <div class="home-contacts">
+    {% if site.author.uri %}<a href="{{ site.author.uri }}" title="Website"><i class="fas fa-link" aria-hidden="true"></i></a>{% endif %}
+    {% if site.author.email %}<a href="mailto:{{ site.author.email }}" title="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>{% endif %}
+    <a href="{{ site.baseurl }}/cv/" title="CV"><i class="fas fa-file-alt" aria-hidden="true"></i></a>
+    {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter | remove: '@' }}" title="Twitter"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>{% endif %}
+    {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>{% endif %}
+    {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" title="Google Scholar"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>{% endif %}
+  </div>
+</div>
+
+<div class="home-main page-intro" markdown="1">
 
 Hello there! I'm Kehang.
 
-I obtained my Ph.D. at Harvard University, jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/). 
+I obtained my Ph.D. at Harvard University in 2026, jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/). 
 I had the pleasure to intern at [Google DeepMind](https://deepmind.google/) and [Amazon Science](https://www.amazon.science/).
 
 I study **AI agents** as proxies for human decision-making and how individuals collaborate with these agents in economic environments.
@@ -25,20 +42,7 @@ My research has two primary strands.
 
 </div>
 
-<!-- The central problem I aim to address is how to make **mechanism design** more applicable in real-world scenarios. Many theoretically optimal mechanisms are seldom applied in practice due to their complexity.
-
-My work focuses on using Large Language Models (LLMs) as **Proxies** for Human behaviors in traditional lab experiments. People can express their intentions in natural language, and an LLM agent will act as their proxy within the mechanism. -->
-
-
-<!-- I am generally interested in modelling human behaviors and mechanism design.
-
-In the short term,, I am exploring these two directions:
-1. Do Language Models (LMs) behave like Humans?
-2. Are predictions made on LMs valid on Humans? 
-
-Looking ahead, my long-term scope concerning two questions:
-1. How to better model Human Behaviors with AI?
-2. How to increase the Welfare of Human Being with AI modeling? -->
+</div>
 
 ## My Research
 
@@ -116,7 +120,7 @@ Looking ahead, my long-term scope concerning two questions:
     <div class="pub">
       <div class="pub-title"><a href="https://arxiv.org/pdf/2509.09071">Strategic Tradeoffs Between Human and AI Agents in Bargaining Games</a></div>
       <div class="pub-authors">With Crystal Qian, Vivian Tsai, James Wexler, Nithum Thain, John Horton, and Benjamin Manning.</div>
-      <div class="pub-venue">Accepted at <strong>IUI 2026</strong>.</div>
+      <div class="pub-venue"><strong>ACM Conference on Intelligent User Interfaces (IUI), 2026</strong>.</div>
       <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-strategic">Abstract</button> <a href="https://arxiv.org/pdf/2509.09071" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-strategic" data-bibtex-name="qian2026strategic">Bibtex</button> <a href="https://www.prolific.com/resources/how-google-deepmind-is-advancing-multi-party-ai-research-with-deliberate-lab" class="paper-btn">Press: Prolific</a></div>
       <div class="pub-abstract" id="abs-strategic" hidden>Markets increasingly accommodate large language models (LLMs) as autonomous decision-making agents. As this transition occurs, it becomes critical to evaluate how these agents behave relative to their human and task-specific statistical predecessors. In this work, we present results from an empirical study comparing humans (N=216), multiple frontier LLMs, and customized Bayesian agents in dynamic multi-player bargaining games under identical conditions. Bayesian agents extract the highest surplus with aggressive trade proposals that are frequently rejected. Humans and LLMs achieve comparable aggregate surplus within their groups, but exhibit different trading strategies. LLMs favor conservative, concessionary proposals that are usually accepted by other LLMs, while humans propose trades that are consistent with fairness norms but are more likely to be rejected. These findings highlight that performance parity — a common benchmark in agent evaluation — can mask substantive procedural differences in how LLMs behave in complex multi-agent interactions.</div>
       <script type="application/x-bibtex" id="bib-strategic">
@@ -136,7 +140,7 @@ Looking ahead, my long-term scope concerning two questions:
     <div class="pub">
       <div class="pub-title"><a href="/files/reading-between-pixels.pdf">Reading Between the Pixels: Investigating the Barriers to Visualization Literacy</a></div>
       <div class="pub-authors">With Carolina Nobre, Eric Mörth, Hanspeter Pfister, and Johanna Beyer.</div>
-      <div class="pub-venue"><strong>CHI 2024</strong>.</div>
+      <div class="pub-venue"><strong>ACM Conference on Human Factors in Computing Systems (CHI), 2024</strong>.</div>
       <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-reading">Abstract</button> <a href="/files/reading-between-pixels.pdf" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-reading" data-bibtex-name="nobre2024reading">Bibtex</button> <a href="https://doi.org/10.1145/3613904.3642760" class="paper-btn">ACM</a></div>
       <div class="pub-abstract" id="abs-reading" hidden>In our current visual-centric digital age, the capability to interpret, understand, and produce visual representations of data—termed visualization literacy—is paramount. However, not everyone is adept at navigating this visual terrain. This paper explores the barriers that individuals who misread a visualization encounter, aiming to understand their specific mental gaps. Utilizing a mixed-method approach, we administered the Visualization Literacy Assessment Test (VLAT) to a group of 120 participants drawn from diverse demographic backgrounds, which provided us with 1774 task completions. We augmented the standard VLAT test to capture quantitative and qualitative data on participants' errors. We collected participant sketches and open-ended text about their analysis approach, providing insight into users' mental models and rationale. Our findings reveal that individuals who incorrectly answer visualization literacy questions often misread visual channels, confound chart labels with data values, or struggle to translate data-driven questions into visual queries. Recognizing and bridging visualization literacy gaps not only ensures inclusivity but also enhances the overall effectiveness of visual communication in our society.</div>
       <script type="application/x-bibtex" id="bib-reading">
