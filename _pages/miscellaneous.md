@@ -1,7 +1,8 @@
 ---
 permalink: /miscellaneous/
 title: "Miscellaneous"
-author_profile: true
+author_profile: false
+full_width: true
 ---
 
 ## My Journey So Far

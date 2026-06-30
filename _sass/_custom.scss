@@ -157,6 +157,10 @@
     font-size: 1.35rem;     /* keep the icon visible */
     line-height: 1;
   }
+
+  /* Align the avatar's left edge flush with the page content (the theme insets
+     the photo with 5px padding + 1px border, pushing it right of the text). */
+  .sidebar .author__avatar img { padding: 0; }
 }
 
 /* ==========================================================================
