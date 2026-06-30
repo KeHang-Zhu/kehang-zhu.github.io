@@ -2,7 +2,7 @@
 layout: archive
 title: "Works"
 permalink: /works/
-author_profile: true
+author_profile: false
 ---
 
 <div class="pub-group">

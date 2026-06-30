@@ -128,6 +128,37 @@
   &:hover { color: #2962ff; }
 }
 
+/* Sidebar contact links: a centred horizontal row of icons only.
+   Location stays as a readable text line above the icons. */
+.sidebar .author__location {
+  margin: 0.15em 0 0.1em;
+  font-size: 0.85rem;
+  color: #6b6b6b;
+}
+@include breakpoint($large) {
+  .sidebar .author__urls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em 0.8em;
+    margin-top: 0.5em;
+  }
+  .sidebar .author__urls li { margin: 0; white-space: nowrap; }
+  .sidebar .author__urls a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 2px;
+    font-size: 0;           /* hide the text label */
+  }
+  .sidebar .author__urls a i,
+  .sidebar .author__urls a .ai {
+    font-size: 1.35rem;     /* keep the icon visible */
+    line-height: 1;
+  }
+}
+
 /* ==========================================================================
    FULL-WIDTH PAGES (profile sidebar hidden) + non-sliding sidebar
    ========================================================================== */
@@ -139,12 +170,17 @@
   .archive--full {
     width: 100%;
     float: none;
-    clear: both;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
   }
+
+  /* On the full-width About page the avatar floats left: the intro wraps beside
+     it, but the research headings/sections drop below it so the section labels
+     ("Working Papers", ...) line up underneath the avatar. */
+  .page--full .page__content > h2,
+  .page--full .pub-group { clear: left; }
 
   /* Stop the profile sidebar from sticking/sliding on scroll. */
   .sidebar.sticky { position: relative; top: 0; }

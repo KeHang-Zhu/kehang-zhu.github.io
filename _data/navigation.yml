@@ -19,12 +19,6 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Google Scholar"
-    url: https://scholar.google.com/citations?hl=en&user=Q7gA1vAAAAAJ
-
-  - title: "Email"
-    url: mailto:kehangzhu@gmail.com
-
   - title: "Miscellaneous"
     url: /miscellaneous/
 
