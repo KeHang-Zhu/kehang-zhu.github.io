@@ -31,8 +31,10 @@ redirect_from:
 
 Hello there! I'm Kehang.
 
+I am a Postdoctoral Fellow at the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu/).
+
 I obtained my Ph.D. at Harvard University in 2026, jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/). 
-I had the pleasure to intern at [Google DeepMind](https://deepmind.google/) and [Amazon Science](https://www.amazon.science/).
+I had the pleasure to intern at [Google DeepMind](https://deepmind.google/) and [Amazon AgentLab](https://www.amazon.science/).
 
 I study **AI agents** as proxies for human decision-making and how individuals collaborate with these agents in economic environments.
 
