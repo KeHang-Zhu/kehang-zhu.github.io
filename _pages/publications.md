@@ -53,18 +53,37 @@ author_profile: false
     </div>
 
     <div class="pub">
-      <div class="pub-title"><a href="https://drive.google.com/file/d/1mvl8tgwak2fnBWhTh-slHqTSU_lyviDa/view?usp=sharing">Benchmarking LLM Bidding Against Human Experimental Data</a></div>
-      <div class="pub-authors">With Anand Shah, Jeffery Wang, Arif K. Dayi, Yanchen Jiang, John Horton, and David Parkes.</div>
+      <div class="pub-title"><a href="https://arxiv.org/abs/2507.09083">LLM Bidders Preserve the Mechanism-Level Orderings of Human Bidders</a></div>
+      <div class="pub-authors">With Anand Shah, Yanchen Jiang, Jeffrey Wang, Arif K. Dayi, John Horton, and David Parkes.</div>
       <div class="pub-venue"><strong>NeurIPS 2024</strong> (Workshop), <strong>EC 2024</strong> (Poster).</div>
-      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-benchmarking">Abstract</button> <a href="https://drive.google.com/file/d/1mvl8tgwak2fnBWhTh-slHqTSU_lyviDa/view?usp=sharing" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-benchmarking" data-bibtex-name="shah2024benchmarking">Bibtex</button> <a href="https://github.com/KeHang-Zhu/llm-auction" class="paper-btn">Code</a></div>
-      <div class="pub-abstract" id="abs-benchmarking" hidden>This paper investigates the behavior of large language models (LLMs) in auctions, introducing a novel synthetic data-generating process to help facilitate the study and design of auctions. We use the method of moments to estimate human bidding strategies in the results of different experiments reported in the economics literature, for first-price and second-price auction formats and different value environments. We also consider empirical benchmarks from field studies of eBay-style proxy-bidding auctions. In comparing LLMs and humans, we find that LLMs reproduce several qualitative regularities emphasized in the auctions literature—systematic departures from equilibrium in IPV sealed-bid auctions, susceptibility to the winner's curse in common-value settings, and bid sniping under hard-close rules in eBay-style environments—and that LLM behavior is highly responsive to how the incentive mechanisms are presented: describing a strategy-proof sealed-bid auction via an ascending-clock threshold process makes bidding substantially more truthful. We further find that seemingly small design changes—such as moving from sealed-bid to clock-style implementations or modifying the closing rule—induce large and systematic shifts in LLM behavior (as with humans). However, even while summary statistics of LLM bids are similar to those of human bids, the bid distributions diverge in salient ways, revealing where human-likeness breaks down. In this way, we identify regimes in which LLM behavior resembles human behavior and where it does not—offering a methodological template for future work using LLMs as proxies for human behavior in auctions. We release the framework as a reproducible, open-source standard for evaluating economic reasoning in LLMs, flexible enough to run auction experiments with many different models and across a wide range of auction designs.</div>
+      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-benchmarking">Abstract</button> <a href="https://arxiv.org/abs/2507.09083" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-benchmarking" data-bibtex-name="shah2025llmbidders">Bibtex</button> <a href="https://github.com/KeHang-Zhu/llm-auction" class="paper-btn">Code</a></div>
+      <div class="pub-abstract" id="abs-benchmarking" hidden>Training on vast amounts of human-generated data has motivated growing interest in using large language models (LLMs) to simulate human behavior. We ask which features of human behavior general-purpose models preserve when used out of the box in auctions, where multiple bidders interact under explicit rules and incentives. We evaluate five LLMs across seven laboratory settings against human benchmarks reconstructed from published experiments, with uncertainty bands for the private-value comparisons. Our main focus is on three large models without extended test-time reasoning: GPT-4o, Claude 3.5 Haiku, and Gemini 2.0 Flash. LLM and human deviations from theory differ in magnitude and often in direction: humans overbid in second-price auctions, whereas most models that deviate underbid. Surprisingly, without task-specific fine-tuning or calibration to human bids, the three non-reasoning large models robustly preserve key orderings of auction formats by deviation from theory. First-price auctions are harder than second-price, and ascending clocks reduce deviations relative to sealed bids wherever data are adequate. Kendall's $\tau_b$ between the human and GPT-4o difficulty rankings is $0.60$ and positive in every joint bootstrap draw. The reasoning model bids almost at equilibrium in the observed private-value settings, leaving little variation in errors to compare; the small model's large errors yield an inverted ranking. All five models nevertheless reproduce the stronger first-price winner's curse. Clock framing improves bidding for two of the three non-reasoning large models, and GPT-4o recovers the ordering of last-minute bidding across closing rules in an eBay-style marketplace.</div>
       <script type="application/x-bibtex" id="bib-benchmarking">
-@misc{shah2024benchmarking,
-  title  = {Benchmarking LLM Bidding Against Human Experimental Data},
-  author = {Shah, Anand and Zhu, Kehang and Wang, Jeffery and Dayi, Arif K. and Jiang, Yanchen and Horton, John J. and Parkes, David C.},
-  year   = {2024},
-  note   = {NeurIPS 2024 Workshop; ACM EC 2024 (poster)},
-  url    = {https://github.com/KeHang-Zhu/llm-auction}
+@inproceedings{shah2025llmbidders,
+  title         = {LLM Bidders Preserve the Mechanism-Level Orderings of Human Bidders},
+  author        = {Shah, Anand and Zhu, Kehang and Jiang, Yanchen and Wang, Jeffrey G. and Dayi, Arif K. and Horton, John J. and Parkes, David C.},
+  year          = {2025},
+  note          = {NeurIPS 2024 Workshop; ACM EC 2024 (poster)},
+  eprint        = {2507.09083},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.GT},
+  url           = {https://arxiv.org/abs/2507.09083}
+}
+</script>
+    </div>
+
+    <div class="pub">
+      <div class="pub-title"><a href="https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view?usp=sharing">Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior</a></div>
+      <div class="pub-authors">With Robin Na, Logan Cross, and Michiel A. Bakker.</div>
+      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-profiles">Abstract</button> <a href="https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view?usp=sharing" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-profiles" data-bibtex-name="na2026profiles">Bibtex</button></div>
+      <div class="pub-abstract" id="abs-profiles" hidden>Large language models (LLMs) are increasingly used to simulate human behavior, but which descriptions of people improve prediction when experimental designs change remains unclear. We develop a framework that draws candidate behavioral features from the literature and constructs profiles from earlier human experiments. A profile-generation LLM assigns feature values from observed actions, messages, and surveys; a separate LLM simulates behavior using these profiles. By comparing simulated and observed outcomes in the learning data, we select profile contents through forward feature selection, adding features while they improve prediction. We then evaluate the selected contents without modification against outcomes from new participants under new designs. Across 616 public-goods games, 144 multi-party bargaining games, and 1,480 generalized 11–20 money-request designs, leading one-feature profiles predict human outcome distributions better than no profile or general-purpose personas. Profiles with more features provide no clear additional benefit, and features' relative predictive value largely persists across learning and validation. Using profiles from one game family to simulate another produces uneven gains and can make predictions less accurate than simulations without profiles. The framework makes the choice of behavioral information a testable part of simulation design, helping researchers assess which descriptions remain useful as experimental conditions change.</div>
+      <script type="application/x-bibtex" id="bib-profiles">
+@misc{na2026profiles,
+  title  = {Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior},
+  author = {Na, Robin and Zhu, Kehang and Cross, Logan and Bakker, Michiel A.},
+  year   = {2026},
+  note   = {Working paper},
+  url    = {https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view}
 }
 </script>
     </div>
@@ -123,17 +142,19 @@ author_profile: false
   <div class="pub-group-items">
 
     <div class="pub">
-      <div class="pub-title"><a href="https://drive.google.com/file/d/1V5Gkuu8RiZS17NSwKPe3SmUlMmXQDh4m/view?usp=sharing">Engineering Simplicity for LLM Agents</a></div>
+      <div class="pub-title"><a href="https://arxiv.org/abs/2609.36365">Engineering Simplicity: Simple Mechanism Interfaces Steer LLM Agents</a></div>
       <div class="pub-authors">With Anand Shah and David Parkes.</div>
-      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-engineering">Abstract</button> <a href="https://drive.google.com/file/d/1V5Gkuu8RiZS17NSwKPe3SmUlMmXQDh4m/view?usp=sharing" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-engineering" data-bibtex-name="shah2026engineering">Bibtex</button></div>
-      <div class="pub-abstract" id="abs-engineering" hidden>The theory of simplicity in economic design makes a claim about minds: that certain strategic problems are intrinsically hard to reason about, and that simple design can improve reasoning and recover good outcomes. Large language models (LLMs) represent a new kind of intelligence—neither human nor superhuman—and offer a rare opportunity: to test whether the cognitive constraints that drive simplicity in economic design are specific to humans or reflect something deeper. Existing results establish that LLM agents make mistakes participating in strategy-proof auctions such as the second-price sealed-bid auction, but improve play in simpler, obviously strategy-proof designs; we extend these findings across model families and to two-sided matching, and take this as evidence that the representation of a mechanism—how a game is presented, not just what it implements—shapes LLM reasoning in the same direction it shapes human reasoning. To understand where these cognitive constraints bind, we systematically test prompt-based interventions along three axes from this theory—contingent reasoning, forward planning, and belief formation—as well as descriptions of the mechanisms themselves to make their incentive properties transparent. We find that scaffolding for contingent reasoning, and making incentive properties transparent, substantially improve play, while prompting models to plan forward or to reason about others' beliefs consistently worsens it. The conceptual vocabulary of simple mechanism design, it appears, also describes the limits of an intelligence we did not build the theory for. Understanding why will matter as artificial agents enter economic life.</div>
+      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-engineering">Abstract</button> <a href="https://arxiv.org/abs/2609.36365" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-engineering" data-bibtex-name="zhu2026engineering">Bibtex</button></div>
+      <div class="pub-abstract" id="abs-engineering" hidden>Can interaction formats and textual scaffolds help large language model (LLM) agents make better decisions, and do better decisions come with better explanations? We study these questions in auctions and matching, multi-agent environments with explicit rules and known optimal strategies. These settings let us vary how a decision problem is presented while retaining a benchmark for evaluating behavior. Drawing on human-motivated theories of simplicity, we compare interfaces that elicit a complete bid or ranking with sequential interfaces that make safe choices easier to identify. We then hold the interaction format fixed and vary reasoning scaffolds and rule descriptions. Across four model families, the ascending auction interface substantially reduces bid deviations. The matching comparison also shows why sequential responses require different error accounting from complete rankings. Laying out payoff contingencies and explaining why truth-telling is safe also improve choices, whereas prompts to plan through matching rounds or form beliefs about opponents worsen play overall. In auctions, these behavioral gains are not accompanied by corresponding improvements in measured verbal indicators of strategic understanding in the agents' short stated plans. Other prompts change those indicators without improving bids. Our findings suggest that human-motivated theories of simplicity can inform the design of decision environments for artificial agents. They also show why scaffolds should be evaluated through realized choices as well as explanations: improvements in one need not appear in the other.</div>
       <script type="application/x-bibtex" id="bib-engineering">
-@misc{shah2026engineering,
-  title  = {Engineering Simplicity for LLM Agents},
-  author = {Shah, Anand and Zhu, Kehang and Parkes, David C.},
-  year   = {2026},
-  note   = {Working paper},
-  url    = {https://drive.google.com/file/d/1V5Gkuu8RiZS17NSwKPe3SmUlMmXQDh4m/view}
+@misc{zhu2026engineering,
+  title         = {Engineering Simplicity: Simple Mechanism Interfaces Steer LLM Agents},
+  author        = {Zhu, Kehang and Shah, Anand and Parkes, David C.},
+  year          = {2026},
+  eprint        = {2609.36365},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2609.36365}
 }
 </script>
     </div>
