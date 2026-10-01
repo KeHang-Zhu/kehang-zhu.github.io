@@ -75,15 +75,16 @@ author_profile: false
     <div class="pub">
       <div class="pub-title"><a href="https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view?usp=sharing">Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior</a></div>
       <div class="pub-authors">With Robin Na, Logan Cross, and Michiel A. Bakker.</div>
+      <div class="pub-venue"><strong>NeurIPS 2026</strong> (UserSim Workshop).</div>
       <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-profiles">Abstract</button> <a href="https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view?usp=sharing" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-profiles" data-bibtex-name="na2026profiles">Bibtex</button></div>
       <div class="pub-abstract" id="abs-profiles" hidden>Large language models (LLMs) are increasingly used to simulate human behavior, but which descriptions of people improve prediction when experimental designs change remains unclear. We develop a framework that draws candidate behavioral features from the literature and constructs profiles from earlier human experiments. A profile-generation LLM assigns feature values from observed actions, messages, and surveys; a separate LLM simulates behavior using these profiles. By comparing simulated and observed outcomes in the learning data, we select profile contents through forward feature selection, adding features while they improve prediction. We then evaluate the selected contents without modification against outcomes from new participants under new designs. Across 616 public-goods games, 144 multi-party bargaining games, and 1,480 generalized 11–20 money-request designs, leading one-feature profiles predict human outcome distributions better than no profile or general-purpose personas. Profiles with more features provide no clear additional benefit, and features' relative predictive value largely persists across learning and validation. Using profiles from one game family to simulate another produces uneven gains and can make predictions less accurate than simulations without profiles. The framework makes the choice of behavioral information a testable part of simulation design, helping researchers assess which descriptions remain useful as experimental conditions change.</div>
       <script type="application/x-bibtex" id="bib-profiles">
-@misc{na2026profiles,
-  title  = {Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior},
-  author = {Na, Robin and Zhu, Kehang and Cross, Logan and Bakker, Michiel A.},
-  year   = {2026},
-  note   = {Working paper},
-  url    = {https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view}
+@inproceedings{na2026profiles,
+  title     = {Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior},
+  author    = {Na, Robin and Zhu, Kehang and Cross, Logan and Bakker, Michiel A.},
+  year      = {2026},
+  note      = {NeurIPS 2026 UserSim Workshop},
+  url       = {https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view}
 }
 </script>
     </div>
