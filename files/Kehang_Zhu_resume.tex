@@ -1,0 +1,176 @@
+% Kehang Zhu -- CV
+% Compile: pdflatex Kehang_Zhu_resume.tex  (output is embedded at /cv/)
+\documentclass[10pt]{article}
+
+\usepackage[letterpaper,margin=0.85in,top=0.75in,bottom=0.8in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks=false,colorlinks=true,urlcolor=red,linkcolor=red,citecolor=red]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\emergencystretch=1.5em
+\DeclareRobustCommand{\$}{\char36\relax}  % keep dollar sign in vector CM font
+
+% ---------- layout helpers ----------
+% Section: small-caps label in a left column, content on the right (breaks across pages)
+\newenvironment{rSection}[1]{%
+  \par\addvspace{10pt}%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{1.4in}\setlength{\labelwidth}{1.3in}%
+    \setlength{\labelsep}{0.1in}\setlength{\itemsep}{0pt}%
+    \setlength{\topsep}{0pt}\setlength{\parsep}{7pt}%
+    \renewcommand{\makelabel}[1]{\smash{\parbox[t]{\labelwidth}{\raggedright\scshape ##1}}}}%
+  \item[#1]}{\end{list}}
+
+% Dated entry: \entry{Bold heading}{date}{sub-line}
+\newcommand{\entry}[3]{{\bfseries #1}\hspace{1em}\hfill #2\\#3\par}
+% Dated line: \dline{text}{date}
+\newcommand{\dline}[2]{#1\hfill #2\\}
+% Paper: \paper{title}{url}{authors}{status lines}
+\newcommand{\paper}[4]{\href{#2}{#1}\\(#3)\\#4\par}
+\newcommand{\me}{\textbf{Kehang Zhu}}
+\newcommand{\cf}{\textsuperscript{1}}   % first / co-first author
+% Talk item
+\newcommand{\talk}[2]{\item \textbf{#1}\\\hspace*{1.5em}#2}
+
+\begin{document}
+
+{\LARGE Kehang Zhu}\par\vspace{4pt}
+\hrule height 0.8pt\relax
+
+% ======================================================
+\begin{rSection}{Contact}
+kehang\_zhu (at) g.harvard.edu $\diamond$ \href{https://kehang-zhu.github.io/}{kehang-zhu.github.io}
+\end{rSection}
+
+\begin{rSection}{Appointments}
+\entry{Stanford Digital Economy Lab, Stanford University}{2026 - Present}{Postdoctoral Fellow}
+\end{rSection}
+
+\begin{rSection}{Education}
+\entry{Harvard University}{2021 - 2026}{Ph.D. Physics}
+\entry{Harvard University}{2024}{S.M., Computer Science}
+\entry{University of Science and Technology of China}{2021}{B.A. Physics (\textit{summa cum laude})}
+\end{rSection}
+
+\begin{rSection}{References}
+\begin{tabular}[t]{@{}p{0.47\linewidth}@{}p{0.47\linewidth}@{}}
+John J. Horton (Chair)        & David C. Parkes \\
+MIT Sloan School of Management & Harvard University \\
+jjhorton (at) mit.edu          & parkes (at) eecs.harvard.edu \\[8pt]
+Nithum Thain                   & Erik Brynjolfsson \\
+Google DeepMind                & Stanford University \\
+nthain (at) google.com         & erikb (at) stanford.edu \\
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Grants\\(\$150,000)}
+\dline{Google DeepMind Seed Fund (\$50,000; Co-PI w/ John J. Horton)}{2024}
+\dline{DropBox Research Fund (\$100,000; Co-PI w/ John J. Horton)}{2023}
+\end{rSection}
+
+\begin{rSection}{Awards \&\\Scholarships}
+\dline{Harvard Student Teaching Award}{2024}
+\dline{Introduction to Technical AI Safety Fellowship}{2023}
+\dline{Harvard Purcell Fellowship}{2021}
+\end{rSection}
+
+% ======================================================
+\begin{rSection}{Working\\Papers}
+\footnotetext[1]{Indicates first author or co-first authors}%
+\paper{Automated Social Science: Language Models as Scientist and Subjects}
+  {https://www.nber.org/papers/w32381}
+  {Benjamin S. Manning\cf, \me\cf, \& John J. Horton}
+  {Reject \& Resubmit at \textit{The Quarterly Journal of Economics}}
+
+\paper{Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation}
+  {https://arxiv.org/abs/2602.12089}
+  {\me\cf, Nithum Thain, Vivian Tsai, James Wexler, \& Crystal Qian}
+  {Collaboration with Google DeepMind\\\textit{Under Review of EC}}
+
+\paper{Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior}
+  {https://arxiv.org/abs/2611.00661}
+  {Robin Na, \me, Logan Cross, \& Michiel A. Bakker}
+  {Workshop on User Simulation (UserSim) at \textit{NeurIPS}, 2026}
+
+Engineering Simplicity with LLM agents\\
+(\me\cf, Anand Shah\cf, \& David Parkes)\\
+Under Review of \textit{EC}\par
+
+Benchmarking LLM Bidding Against Human Experimental Data\\
+(Anand Shah\cf, \me\cf, Yancheng Jiang, Jeffrey Wang, Kerem Dayi, John Horton, \& David Parkes)\\
+Under Review of \textit{EC}\\
+Machine Behavior Workshop at \textit{NeurIPS}, 2024\par
+\end{rSection}
+
+\begin{rSection}{In Progress}
+An Experimental Study of AI Agent Delegation in Multi-player Negotiation\\
+(\me\cf, Crystal Qian, John J. Horton, Benjamin S. Manning, Vivian Tsai, James Wexler, \& Nithum Thain)\\
+To be submitted to \textit{Management Science}\par
+\end{rSection}
+
+\begin{rSection}{Peer-\\Reviewed\\Publications}
+\paper{Strategic Tradeoffs Between Humans and AI in Multi-Agent Bargaining}
+  {https://arxiv.org/abs/2509.09071}
+  {Crystal Qian\cf, \me\cf, John J. Horton, Benjamin S. Manning, Vivian Tsai, James Wexler, \& Nithum Thain}
+  {Collaboration with Google DeepMind\\\textit{Proceedings of the Conference on Intelligent User Interfaces (IUI)}, 2026}
+
+\paper{Reading between the pixels: Investigating the barriers to visualization literacy}
+  {https://dl.acm.org/doi/10.1145/3613904.3642760}
+  {Carolina Nobre\cf, \me, Eric Moerth, Hanspeter Pfister \& Johanna Beyer}
+  {\textit{Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems}, 2024}
+\end{rSection}
+
+% ======================================================
+\begin{rSection}{Talks\textsuperscript{2}}
+\footnotetext[2]{Includes co-author presentation}%
+\begin{itemize}[label=$\bullet$,before=\raggedright,leftmargin=1em,itemsep=2pt,topsep=0pt]
+\talk{Conference on Artificial Intelligence, Machine Learning, and Business Analytics (2025)}{Oral: An Experimental Study of AI Agent Delegation in Multi-player Negotiation}
+\talk{Harvard EconCS Seminar (2025)}{Oral: An Experimental Study of AI Agent Delegation in Multi-player Negotiation}
+\talk{ACM Conference on Economics and Computation (EC 2025)}{Poster: Strategic Tradeoffs Between Human and AI Agents in Bargaining Games}
+\talk{NBER Summer Institute---Digital Economics and Artificial Intelligence Workshop (2024)}{Plenary: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{ACM Conference on Economics and Computation (EC 2024)}{Workshop: Learning from Synthetic Labs: Language Models as Auction Participants}
+\talk{International Conference on Computational Social Science (IC2S2 2024)}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{ACM Collective Intelligence Conference, Boston}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{Microsoft Research -- AI, Cognition, and the Economy (AICE) Workshop}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{AI and the Future of Work Conference, Wharton School}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{Measuring Development, World Bank (MeasureDev 2024)}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{Econometric Society Interdisciplinary Frontiers Conference on Economics and AI+ML}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{American Causal Inference Conference (ACIC 2024)}{Poster: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{International Conference of the French Association of Experimental Economics (ASFEE 2024)}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{Data Science Summit (DataFun 2024)}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{AI Institute for Artificial Intelligence and Fundamental Interactions (2024)}{Oral: Automated Social Science: Language Models as Scientist and Subjects}
+\talk{Interactive Causal Learning Conference (ICLC 2023)}{Oral: Automated Social Science using Language Models and Structural Causal Models}
+\talk{MIT Conference on Digital Experimentation (CODE 2023)}{Oral: Automated Social Science using Language Models and Structural Causal Models}
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Teaching}
+\textit{15.S42}: Leadership in the Age of Generative AI, \textbf{Guest Lecturer for John J. Horton}---MIT Sloan School of Management, Spring 2025\par
+\textit{AI Summer School}: Introduction to Language Models and Applications in Business; \textbf{Lecturer}, Harvard University, Summer 2024\par
+\textit{AP-262}: Statistical Physics; \textbf{TA for Vinothan N. Manoharan}---Harvard University, Fall 2023\par
+\end{rSection}
+
+\begin{rSection}{Affiliations}
+\href{https://digitaleconomy.stanford.edu/}{Stanford Digital Economy Lab}, \href{https://ide.mit.edu/}{MIT Initiative on the Digital Economy}, \href{https://econcs.seas.harvard.edu/}{Harvard EconCS Group}
+\end{rSection}
+
+\begin{rSection}{Review Service}
+\textit{Southern Economic Journal, Conference on Neural Information Processing Systems (NeurIPS), Conference on Digital Experimentation (CODE), ACM Collective Intelligence (CI), International Conference on Computational Social Science (IC2S2), International Conference on Learning Representations (ICLR), International Conference on Machine Learning (ICML), ACM Conference on Human Factors in Computing Systems (CHI), ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)}
+\end{rSection}
+
+\begin{rSection}{Academic Service}
+\href{https://ide.mit.edu/events/2026-the-business-implications-of-generative-ai-mit-big-aimit/}{The Business Implications of Generative AI @ MIT (BIG.AI@MIT)}
+\end{rSection}
+
+\begin{rSection}{Employment}
+\entry{Stanford Digital Economy Lab, Stanford University}{2026 - Present}{Postdoctoral Fellow}
+\entry{Amazon AgentLab, Amazon Science}{2026}{Research Intern}
+\entry{MIT Sloan School of Management}{2023 - 2026}{Research Assistant in Information Technology}
+\entry{Google DeepMind}{2025}{Research Intern}
+\entry{Harvard College}{2024}{AI Course Developer}
+\entry{Applify.ai}{2022 - 2023}{Natural Language Processing Researcher}
+\end{rSection}
+
+\end{document}
