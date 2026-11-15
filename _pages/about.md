@@ -36,11 +36,11 @@ I am a Postdoctoral Fellow at the [Stanford Digital Economy Lab](https://digital
 I obtained my Ph.D. at Harvard University in 2026, jointly advised by [Prof. John Horton](https://mitsloan.mit.edu/faculty/directory/john-j-horton) from [MIT Sloan's IT group](https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers) and [Prof. David Parkes](https://parkes.seas.harvard.edu/) from Harvard's [EconCS group](https://econcs.seas.harvard.edu/). 
 I had the pleasure to intern at [Google DeepMind](https://deepmind.google/) and [Amazon AgentLab](https://www.amazon.science/).
 
-I study **AI agents** as proxies for human decision-making and how individuals collaborate with these agents in economic environments.
+My research asks how to build economic models that capture individual actors and their interactions well enough to predict out-of-distribution outcomes. In particular, I study how AI will change the economy.
 
-My research has two primary strands.
-- First, I examine the capabilities, benefits, and trade-offs of deploying large language models (LLMs) as autonomous agents. I develop novel AI tools and run large-scale economic experiments to understand when and how LLM agents replicate, augment, or diverge from human behavior.
-- Second, I use LLM-based simulations to uncover new patterns in human decision-making and to design more effective interventions, market mechanisms, and organizational policies. By combining computational modeling with experimental economics, my work aims to inform the responsible deployment of AI in markets and institutions.
+I pursue this through two lines of work.
+- First, I model economic systems from the bottom up, building households, firms, and markets out of language-model agents and testing whether they predict human behavior in settings they were never calibrated on.
+- Second, I use language models to automate the modeling process itself, with systems that propose hypotheses, design and run experiments, and revise the model when the data disagree.
 
 </div>
 
@@ -76,49 +76,10 @@ My research has two primary strands.
     </div>
 
     <div class="pub">
-      <div class="pub-title"><a href="https://arxiv.org/abs/2602.12089">Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation</a></div>
-      <div class="pub-authors">With Nithum Thain, Vivian Tsai, James Wexler, and Crystal Qian.</div>
-      <div class="pub-venue">Submitted to <strong>CSCW</strong>.<br><strong>AAMAS 2026 ES Workshop</strong>.</div>
-      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-choose">Abstract</button> <a href="https://arxiv.org/abs/2602.12089" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-choose" data-bibtex-name="zhu2026choose">Bibtex</button></div>
-      <div class="pub-abstract" id="abs-choose" hidden>As AI usage becomes more prevalent in social contexts, understanding agent-user interaction is critical to designing systems that improve both individual and group outcomes. We present an online behavioral experiment (N=243) in which participants play three multi-turn bargaining games in groups of three. Each game, presented in randomized order, grants access to a single LLM assistance modality: proactive recommendations from an Advisor, reactive feedback from a Coach, or autonomous execution by a Delegate. All three modalities are powered by an LLM with super-human performance within this negotiation setting. On each turn, participants privately decide whether to act manually or use the AI modality available in that game. We document a preference-performance misalignment: participants strongly prefer the higher-control Advisor (44%) over the Delegate (19%), yet groups only significantly increase collective surplus under Delegate access. Adjusting for voluntary non-compliance, delegating to the AI yields suggestive individual welfare gains, roughly 1.5x the intent-to-treat estimate. A mechanism analysis traces this gap to a human filter: AI-generated proposals create more joint surplus than manual proposals across all conditions, but in the Advisor and Coach modes users modify, override, or ignore the AI's suggestions, reverting toward human-baseline trade patterns. The Delegate advantage arises not from a different AI capability but from bypassing this filtering step altogether. Realizing these welfare gains depends not only on model capability, but on the interaction structure through which that capability is delivered. We argue that assistance modalities should be designed as mechanisms with endogenous participation; adoption-compatible interaction rules are a prerequisite to improving welfare with automated assistance.</div>
-      <script type="application/x-bibtex" id="bib-choose">
-@inproceedings{zhu2026choose,
-  title         = {Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation},
-  author        = {Zhu, Kehang and Thain, Nithum and Tsai, Vivian and Wexler, James and Qian, Crystal},
-  year          = {2026},
-  note          = {AAMAS 2026 ES Workshop},
-  eprint        = {2602.12089},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.GT},
-  url           = {https://arxiv.org/abs/2602.12089}
-}
-</script>
-    </div>
-
-    <div class="pub">
-      <div class="pub-title"><a href="https://arxiv.org/abs/2507.09083">LLM Bidders Preserve the Mechanism-Level Orderings of Human Bidders</a></div>
-      <div class="pub-authors">With Anand Shah, Yanchen Jiang, Jeffrey Wang, Arif K. Dayi, John Horton, and David Parkes.</div>
-      <div class="pub-venue"><strong>NeurIPS 2024</strong> (Workshop), <strong>EC 2024</strong> (Poster).</div>
-      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-benchmarking">Abstract</button> <a href="https://arxiv.org/abs/2507.09083" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-benchmarking" data-bibtex-name="shah2025llmbidders">Bibtex</button> <a href="https://github.com/KeHang-Zhu/llm-auction" class="paper-btn">Code</a></div>
-      <div class="pub-abstract" id="abs-benchmarking" hidden>Training on vast amounts of human-generated data has motivated growing interest in using large language models (LLMs) to simulate human behavior. We ask which features of human behavior general-purpose models preserve when used out of the box in auctions, where multiple bidders interact under explicit rules and incentives. We evaluate five LLMs across seven laboratory settings against human benchmarks reconstructed from published experiments, with uncertainty bands for the private-value comparisons. Our main focus is on three large models without extended test-time reasoning: GPT-4o, Claude 3.5 Haiku, and Gemini 2.0 Flash. LLM and human deviations from theory differ in magnitude and often in direction: humans overbid in second-price auctions, whereas most models that deviate underbid. Surprisingly, without task-specific fine-tuning or calibration to human bids, the three non-reasoning large models robustly preserve key orderings of auction formats by deviation from theory. First-price auctions are harder than second-price, and ascending clocks reduce deviations relative to sealed bids wherever data are adequate. Kendall's $\tau_b$ between the human and GPT-4o difficulty rankings is $0.60$ and positive in every joint bootstrap draw. The reasoning model bids almost at equilibrium in the observed private-value settings, leaving little variation in errors to compare; the small model's large errors yield an inverted ranking. All five models nevertheless reproduce the stronger first-price winner's curse. Clock framing improves bidding for two of the three non-reasoning large models, and GPT-4o recovers the ordering of last-minute bidding across closing rules in an eBay-style marketplace.</div>
-      <script type="application/x-bibtex" id="bib-benchmarking">
-@inproceedings{shah2025llmbidders,
-  title         = {LLM Bidders Preserve the Mechanism-Level Orderings of Human Bidders},
-  author        = {Shah, Anand and Zhu, Kehang and Jiang, Yanchen and Wang, Jeffrey G. and Dayi, Arif K. and Horton, John J. and Parkes, David C.},
-  year          = {2025},
-  note          = {NeurIPS 2024 Workshop; ACM EC 2024 (poster)},
-  eprint        = {2507.09083},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.GT},
-  url           = {https://arxiv.org/abs/2507.09083}
-}
-</script>
-    </div>
-
-    <div class="pub">
       <div class="pub-title"><a href="https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view?usp=sharing">Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior</a></div>
       <div class="pub-authors">With Robin Na, Logan Cross, and Michiel A. Bakker.</div>
       <div class="pub-venue"><strong>NeurIPS 2026</strong> (UserSim Workshop).</div>
+      <div class="pub-award"><span class="award-btn">Spotlight, UserSim Workshop</span></div>
       <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-profiles">Abstract</button> <a href="https://drive.google.com/file/d/1K8-kDB-FGx3ihhdEdmu7toSKVA_ZO-fZ/view?usp=sharing" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-profiles" data-bibtex-name="na2026profiles">Bibtex</button></div>
       <div class="pub-abstract" id="abs-profiles" hidden>Large language models (LLMs) are increasingly used to simulate human behavior, but which descriptions of people improve prediction when experimental designs change remains unclear. We develop a framework that draws candidate behavioral features from the literature and constructs profiles from earlier human experiments. A profile-generation LLM assigns feature values from observed actions, messages, and surveys; a separate LLM simulates behavior using these profiles. By comparing simulated and observed outcomes in the learning data, we select profile contents through forward feature selection, adding features while they improve prediction. We then evaluate the selected contents without modification against outcomes from new participants under new designs. Across 616 public-goods games, 144 multi-party bargaining games, and 1,480 generalized 11–20 money-request designs, leading one-feature profiles predict human outcome distributions better than no profile or general-purpose personas. Profiles with more features provide no clear additional benefit, and features' relative predictive value largely persists across learning and validation. Using profiles from one game family to simulate another produces uneven gains and can make predictions less accurate than simulations without profiles. The framework makes the choice of behavioral information a testable part of simulation design, helping researchers assess which descriptions remain useful as experimental conditions change.</div>
       <script type="application/x-bibtex" id="bib-profiles">
@@ -199,6 +160,46 @@ My research has two primary strands.
   archivePrefix = {arXiv},
   primaryClass  = {cs.AI},
   url           = {https://arxiv.org/abs/2609.36365}
+}
+</script>
+    </div>
+
+    <div class="pub">
+      <div class="pub-title"><a href="https://arxiv.org/abs/2602.12089">Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation</a></div>
+      <div class="pub-authors">With Nithum Thain, Vivian Tsai, James Wexler, and Crystal Qian.</div>
+      <div class="pub-venue">Submitted to <strong>CSCW</strong>.<br><strong>AAMAS 2026 ES Workshop</strong>.</div>
+      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-choose">Abstract</button> <a href="https://arxiv.org/abs/2602.12089" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-choose" data-bibtex-name="zhu2026choose">Bibtex</button></div>
+      <div class="pub-abstract" id="abs-choose" hidden>As AI usage becomes more prevalent in social contexts, understanding agent-user interaction is critical to designing systems that improve both individual and group outcomes. We present an online behavioral experiment (N=243) in which participants play three multi-turn bargaining games in groups of three. Each game, presented in randomized order, grants access to a single LLM assistance modality: proactive recommendations from an Advisor, reactive feedback from a Coach, or autonomous execution by a Delegate. All three modalities are powered by an LLM with super-human performance within this negotiation setting. On each turn, participants privately decide whether to act manually or use the AI modality available in that game. We document a preference-performance misalignment: participants strongly prefer the higher-control Advisor (44%) over the Delegate (19%), yet groups only significantly increase collective surplus under Delegate access. Adjusting for voluntary non-compliance, delegating to the AI yields suggestive individual welfare gains, roughly 1.5x the intent-to-treat estimate. A mechanism analysis traces this gap to a human filter: AI-generated proposals create more joint surplus than manual proposals across all conditions, but in the Advisor and Coach modes users modify, override, or ignore the AI's suggestions, reverting toward human-baseline trade patterns. The Delegate advantage arises not from a different AI capability but from bypassing this filtering step altogether. Realizing these welfare gains depends not only on model capability, but on the interaction structure through which that capability is delivered. We argue that assistance modalities should be designed as mechanisms with endogenous participation; adoption-compatible interaction rules are a prerequisite to improving welfare with automated assistance.</div>
+      <script type="application/x-bibtex" id="bib-choose">
+@inproceedings{zhu2026choose,
+  title         = {Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation},
+  author        = {Zhu, Kehang and Thain, Nithum and Tsai, Vivian and Wexler, James and Qian, Crystal},
+  year          = {2026},
+  note          = {AAMAS 2026 ES Workshop},
+  eprint        = {2602.12089},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.GT},
+  url           = {https://arxiv.org/abs/2602.12089}
+}
+</script>
+    </div>
+
+    <div class="pub">
+      <div class="pub-title"><a href="https://arxiv.org/abs/2507.09083">LLM Bidders Preserve the Mechanism-Level Orderings of Human Bidders</a></div>
+      <div class="pub-authors">With Anand Shah, Yanchen Jiang, Jeffrey Wang, Arif K. Dayi, John Horton, and David Parkes.</div>
+      <div class="pub-venue"><strong>NeurIPS 2024</strong> (Workshop), <strong>EC 2024</strong> (Poster).</div>
+      <div class="pub-links"><button type="button" class="paper-btn" data-abstract-toggle="abs-benchmarking">Abstract</button> <a href="https://arxiv.org/abs/2507.09083" class="paper-btn">PDF</a> <button type="button" class="paper-btn" data-bibtex-toggle="bib-benchmarking" data-bibtex-name="shah2025llmbidders">Bibtex</button> <a href="https://github.com/KeHang-Zhu/llm-auction" class="paper-btn">Code</a></div>
+      <div class="pub-abstract" id="abs-benchmarking" hidden>Training on vast amounts of human-generated data has motivated growing interest in using large language models (LLMs) to simulate human behavior. We ask which features of human behavior general-purpose models preserve when used out of the box in auctions, where multiple bidders interact under explicit rules and incentives. We evaluate five LLMs across seven laboratory settings against human benchmarks reconstructed from published experiments, with uncertainty bands for the private-value comparisons. Our main focus is on three large models without extended test-time reasoning: GPT-4o, Claude 3.5 Haiku, and Gemini 2.0 Flash. LLM and human deviations from theory differ in magnitude and often in direction: humans overbid in second-price auctions, whereas most models that deviate underbid. Surprisingly, without task-specific fine-tuning or calibration to human bids, the three non-reasoning large models robustly preserve key orderings of auction formats by deviation from theory. First-price auctions are harder than second-price, and ascending clocks reduce deviations relative to sealed bids wherever data are adequate. Kendall's $\tau_b$ between the human and GPT-4o difficulty rankings is $0.60$ and positive in every joint bootstrap draw. The reasoning model bids almost at equilibrium in the observed private-value settings, leaving little variation in errors to compare; the small model's large errors yield an inverted ranking. All five models nevertheless reproduce the stronger first-price winner's curse. Clock framing improves bidding for two of the three non-reasoning large models, and GPT-4o recovers the ordering of last-minute bidding across closing rules in an eBay-style marketplace.</div>
+      <script type="application/x-bibtex" id="bib-benchmarking">
+@inproceedings{shah2025llmbidders,
+  title         = {LLM Bidders Preserve the Mechanism-Level Orderings of Human Bidders},
+  author        = {Shah, Anand and Zhu, Kehang and Jiang, Yanchen and Wang, Jeffrey G. and Dayi, Arif K. and Horton, John J. and Parkes, David C.},
+  year          = {2025},
+  note          = {NeurIPS 2024 Workshop; ACM EC 2024 (poster)},
+  eprint        = {2507.09083},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.GT},
+  url           = {https://arxiv.org/abs/2507.09083}
 }
 </script>
     </div>
