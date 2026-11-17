@@ -3,9 +3,6 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Works"
-    url: /works/
-    
   # Removed Talks and Teaching from navigation
   # - title: "Talks"
   #   url: /talks/    
