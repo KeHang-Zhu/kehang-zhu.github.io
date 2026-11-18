@@ -25,7 +25,7 @@ The question of how simple interactions add up to collective behavior has stayed
 I need snow. Backcountry skiing and the peaks of snow mountains are where I find peace.
 
 <div class="about-gallery">
-  <img src="{{ site.baseurl }}/images/about/glacier.jpg" alt="Kehang standing on a glacier with an ice axe">
+  <img style="object-position: 50% 72%;" src="{{ site.baseurl }}/images/about/glacier.jpg" alt="Kehang standing on a glacier with an ice axe">
   <img src="{{ site.baseurl }}/images/about/backcountry.jpg" alt="Kehang climbing a snowy ridge with a splitboard on his pack">
 </div>
 
