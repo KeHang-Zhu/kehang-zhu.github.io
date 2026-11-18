@@ -16,8 +16,6 @@ I studied theoretical physics as an undergraduate at the University of Science a
   <figcaption>As a visiting student at MIT.</figcaption>
 </figure>
 
-My research interests turned to people and society after a collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard's [Visual Computing Group](https://vcg.seas.harvard.edu/). I ran large-scale human-subject studies on the mental models people use to make sense of visualizations ([CHI '24](https://programs.sigchi.org/chi/2024/program/content/147374)): [**Reading Between the Pixels: Investigating the Barriers to Visualization Literacy**](/files/reading-between-pixels.pdf).
-
 The question of how simple interactions add up to collective behavior has stayed with me, from particles in a material to people and AI agents in an economy.
 
 ## Outside Research
