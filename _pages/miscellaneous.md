@@ -9,11 +9,11 @@ redirect_from:
 
 ## My Journey So Far
 
-I studied theoretical physics as an undergraduate at the University of Science and Technology of China, where I worked on how particles interact and how collective behavior emerges from those interactions. I was lucky, undeservedly so, to be advised on my undergraduate thesis by Nobel Laureate in Physics [Prof. Frank Wilczek](https://physics.mit.edu/faculty/frank-wilczek/) at MIT. We studied quantum spin ice, a material in which an emergent quantum electrodynamics arises, with its own tunable speed of light and fine-structure constant, and used large-scale quantum Monte Carlo simulations to show how those couplings could be read off from neutron-scattering experiments ([APS March Meeting 2022](https://meetings.aps.org/Meeting/MAR22/Session/K51.5)).
+I studied theoretical physics as an undergraduate at the University of Science and Technology of China, working on how particles interact and how collective behavior emerges. As a visiting student at MIT, I was lucky, undeservedly so, to be advised on my undergraduate thesis by Nobel Laureate in Physics [Prof. Frank Wilczek](https://physics.mit.edu/faculty/frank-wilczek/). We studied emergence in quantum spin ice: [*Dynamics of a tunable QED in quantum spin ice*](https://meetings.aps.org/Meeting/MAR22/Session/K51.5) (APS March Meeting 2022).
 
 <figure class="about-photo">
   <img src="{{ site.baseurl }}/images/about/mit-office.jpg" alt="Kehang at MIT">
-  <figcaption>At MIT, during my undergraduate thesis.</figcaption>
+  <figcaption>As a visiting student at MIT.</figcaption>
 </figure>
 
 My research interests turned to people and society after a collaboration with [Prof. Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister) from Harvard's [Visual Computing Group](https://vcg.seas.harvard.edu/). I ran large-scale human-subject studies on the mental models people use to make sense of visualizations ([CHI '24](https://programs.sigchi.org/chi/2024/program/content/147374)): [**Reading Between the Pixels: Investigating the Barriers to Visualization Literacy**](/files/reading-between-pixels.pdf).
