@@ -23,8 +23,14 @@ The question of how simple interactions add up to collective behavior has stayed
 I need snow. Backcountry skiing and the peaks of snow mountains are where I find peace.
 
 <div class="about-gallery">
-  <img style="object-position: 50% 72%;" src="{{ site.baseurl }}/images/about/glacier.jpg" alt="Kehang standing on a glacier with an ice axe">
-  <img src="{{ site.baseurl }}/images/about/backcountry.jpg" alt="Kehang climbing a snowy ridge with a splitboard on his pack">
+  <figure>
+    <img style="object-position: 50% 72%;" src="{{ site.baseurl }}/images/about/glacier.jpg" alt="Kehang standing on a glacier with an ice axe">
+    <figcaption>Mt. Baker, WA</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/images/about/backcountry.jpg" alt="Kehang climbing a snowy ridge with a splitboard on his pack">
+    <figcaption>Jackson Hole, WY</figcaption>
+  </figure>
 </div>
 
 <style>
@@ -32,5 +38,7 @@ I need snow. Backcountry skiing and the peaks of snow mountains are where I find
 .about-photo img { width: 100%; max-width: 640px; border-radius: 6px; display: block; }
 .about-photo figcaption { font-size: 0.85em; color: #666; margin-top: 0.4em; }
 .about-gallery { display: flex; flex-wrap: wrap; gap: 12px; margin: 1.5em 0; }
-.about-gallery img { flex: 1 1 280px; max-width: 100%; height: 360px; object-fit: cover; border-radius: 6px; }
+.about-gallery figure { flex: 1 1 280px; margin: 0; }
+.about-gallery img { width: 100%; height: 360px; object-fit: cover; border-radius: 6px; display: block; }
+.about-gallery figcaption { font-size: 0.85em; color: #666; margin-top: 0.4em; }
 </style>
